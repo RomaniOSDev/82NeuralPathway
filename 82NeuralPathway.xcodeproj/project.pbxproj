@@ -3,33 +3,133 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		743465392F3CEC37006DFFE8 /* AppAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743464E62F3CEC37006DFFE8 /* AppAssembler.swift */; };
+		7434653A2F3CEC37006DFFE8 /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743464E82F3CEC37006DFFE8 /* Achievement.swift */; };
+		7434653B2F3CEC37006DFFE8 /* BrainFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743464E92F3CEC37006DFFE8 /* BrainFact.swift */; };
+		7434653C2F3CEC37006DFFE8 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743464EA2F3CEC37006DFFE8 /* Connection.swift */; };
+		7434653D2F3CEC37006DFFE8 /* GameMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743464EB2F3CEC37006DFFE8 /* GameMode.swift */; };
+		7434653E2F3CEC37006DFFE8 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743464EC2F3CEC37006DFFE8 /* Level.swift */; };
+		7434653F2F3CEC37006DFFE8 /* NeuralNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743464ED2F3CEC37006DFFE8 /* NeuralNetwork.swift */; };
+		743465402F3CEC37006DFFE8 /* Neuron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743464EE2F3CEC37006DFFE8 /* Neuron.swift */; };
+		743465412F3CEC37006DFFE8 /* NeuronType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743464EF2F3CEC37006DFFE8 /* NeuronType.swift */; };
+		743465422F3CEC37006DFFE8 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743464F12F3CEC37006DFFE8 /* Color+Hex.swift */; };
+		743465432F3CEC37006DFFE8 /* AppNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743464F32F3CEC37006DFFE8 /* AppNavigation.swift */; };
+		743465442F3CEC37006DFFE8 /* AchievementService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743464F52F3CEC37006DFFE8 /* AchievementService.swift */; };
+		743465452F3CEC37006DFFE8 /* AppLinksService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743464F62F3CEC37006DFFE8 /* AppLinksService.swift */; };
+		743465462F3CEC37006DFFE8 /* EducationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743464F72F3CEC37006DFFE8 /* EducationService.swift */; };
+		743465472F3CEC37006DFFE8 /* LevelDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743464F82F3CEC37006DFFE8 /* LevelDataService.swift */; };
+		743465482F3CEC37006DFFE8 /* OnboardingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743464F92F3CEC37006DFFE8 /* OnboardingService.swift */; };
+		743465492F3CEC37006DFFE8 /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743464FA2F3CEC37006DFFE8 /* PersistenceService.swift */; };
+		7434654A2F3CEC37006DFFE8 /* ProgressionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743464FB2F3CEC37006DFFE8 /* ProgressionService.swift */; };
+		7434654B2F3CEC37006DFFE8 /* UndoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743464FC2F3CEC37006DFFE8 /* UndoService.swift */; };
+		7434654C2F3CEC37006DFFE8 /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743464FF2F3CEC37006DFFE8 /* CheckLink.swift */; };
+		7434654D2F3CEC37006DFFE8 /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743465002F3CEC37006DFFE8 /* InternetViewController.swift */; };
+		7434654E2F3CEC37006DFFE8 /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743465012F3CEC37006DFFE8 /* LoaderViewController.swift */; };
+		7434654F2F3CEC37006DFFE8 /* EducationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743465042F3CEC37006DFFE8 /* EducationInteractor.swift */; };
+		743465502F3CEC37006DFFE8 /* EducationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743465052F3CEC37006DFFE8 /* EducationPresenter.swift */; };
+		743465512F3CEC37006DFFE8 /* EducationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743465062F3CEC37006DFFE8 /* EducationView.swift */; };
+		743465522F3CEC37006DFFE8 /* GameInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743465082F3CEC37006DFFE8 /* GameInteractor.swift */; };
+		743465532F3CEC37006DFFE8 /* GamePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743465092F3CEC37006DFFE8 /* GamePresenter.swift */; };
+		743465542F3CEC37006DFFE8 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434650A2F3CEC37006DFFE8 /* GameView.swift */; };
+		743465552F3CEC37006DFFE8 /* LevelSelectInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434650C2F3CEC37006DFFE8 /* LevelSelectInteractor.swift */; };
+		743465562F3CEC37006DFFE8 /* LevelSelectPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434650D2F3CEC37006DFFE8 /* LevelSelectPresenter.swift */; };
+		743465572F3CEC37006DFFE8 /* LevelSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434650E2F3CEC37006DFFE8 /* LevelSelectView.swift */; };
+		743465582F3CEC37006DFFE8 /* MenuInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743465102F3CEC37006DFFE8 /* MenuInteractor.swift */; };
+		743465592F3CEC37006DFFE8 /* MenuPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743465112F3CEC37006DFFE8 /* MenuPresenter.swift */; };
+		7434655A2F3CEC37006DFFE8 /* MenuProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743465122F3CEC37006DFFE8 /* MenuProtocols.swift */; };
+		7434655B2F3CEC37006DFFE8 /* MenuRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743465132F3CEC37006DFFE8 /* MenuRouter.swift */; };
+		7434655C2F3CEC37006DFFE8 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743465142F3CEC37006DFFE8 /* MenuView.swift */; };
+		7434655D2F3CEC37006DFFE8 /* ModeSelectPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743465162F3CEC37006DFFE8 /* ModeSelectPresenter.swift */; };
+		7434655E2F3CEC37006DFFE8 /* ModeSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743465172F3CEC37006DFFE8 /* ModeSelectView.swift */; };
+		7434655F2F3CEC37006DFFE8 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743465192F3CEC37006DFFE8 /* OnboardingView.swift */; };
+		743465602F3CEC37006DFFE8 /* ProgressionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434651B2F3CEC37006DFFE8 /* ProgressionInteractor.swift */; };
+		743465612F3CEC37006DFFE8 /* ProgressionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434651C2F3CEC37006DFFE8 /* ProgressionPresenter.swift */; };
+		743465622F3CEC37006DFFE8 /* ProgressionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434651D2F3CEC37006DFFE8 /* ProgressionView.swift */; };
+		743465632F3CEC37006DFFE8 /* SettingsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434651F2F3CEC37006DFFE8 /* SettingsInteractor.swift */; };
+		743465642F3CEC37006DFFE8 /* SettingsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743465202F3CEC37006DFFE8 /* SettingsPresenter.swift */; };
+		743465652F3CEC37006DFFE8 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743465212F3CEC37006DFFE8 /* SettingsView.swift */; };
+		743465662F3CEC37006DFFE8 /* DesignHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743465242F3CEC37006DFFE8 /* DesignHelpers.swift */; };
+		743465672F3CEC37006DFFE8 /* GameCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743465252F3CEC37006DFFE8 /* GameCanvasView.swift */; };
+		743465682F3CEC37006DFFE8 /* NeuronShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743465292F3CEC37006DFFE8 /* NeuronShapes.swift */; };
+		743465692F3CEC37006DFFE8 /* ConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434652B2F3CEC37006DFFE8 /* ConnectionView.swift */; };
+		7434656A2F3CEC37006DFFE8 /* NeuronView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434652C2F3CEC37006DFFE8 /* NeuronView.swift */; };
+		7434656B2F3CEC37006DFFE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7434652E2F3CEC37006DFFE8 /* AppDelegate.swift */; };
+		7434656C2F3CEC37006DFFE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743465302F3CEC37006DFFE8 /* ContentView.swift */; };
+		7434656D2F3CEC37006DFFE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743465362F3CEC37006DFFE8 /* SceneDelegate.swift */; };
+		7434656E2F3CEC37006DFFE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743465372F3CEC37006DFFE8 /* ViewController.swift */; };
+		7434656F2F3CEC37006DFFE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7434652F2F3CEC37006DFFE8 /* Assets.xcassets */; };
+		743465712F3CEC37006DFFE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 743465332F3CEC37006DFFE8 /* LaunchScreen.storyboard */; };
+		743465722F3CEC37006DFFE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 743465352F3CEC37006DFFE8 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		005104EBA60081B0F214F7D3 /* Pods-82NeuralPathway.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-82NeuralPathway.debug.xcconfig"; path = "Target Support Files/Pods-82NeuralPathway/Pods-82NeuralPathway.debug.xcconfig"; sourceTree = "<group>"; };
+		3A68C052EC5554686F79793C /* Pods-82NeuralPathway.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-82NeuralPathway.release.xcconfig"; path = "Target Support Files/Pods-82NeuralPathway/Pods-82NeuralPathway.release.xcconfig"; sourceTree = "<group>"; };
 		7403AD9F2F36AB89002FAF54 /* 82NeuralPathway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 82NeuralPathway.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		743464E62F3CEC37006DFFE8 /* AppAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAssembler.swift; sourceTree = "<group>"; };
+		743464E82F3CEC37006DFFE8 /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
+		743464E92F3CEC37006DFFE8 /* BrainFact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainFact.swift; sourceTree = "<group>"; };
+		743464EA2F3CEC37006DFFE8 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		743464EB2F3CEC37006DFFE8 /* GameMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMode.swift; sourceTree = "<group>"; };
+		743464EC2F3CEC37006DFFE8 /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		743464ED2F3CEC37006DFFE8 /* NeuralNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuralNetwork.swift; sourceTree = "<group>"; };
+		743464EE2F3CEC37006DFFE8 /* Neuron.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neuron.swift; sourceTree = "<group>"; };
+		743464EF2F3CEC37006DFFE8 /* NeuronType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuronType.swift; sourceTree = "<group>"; };
+		743464F12F3CEC37006DFFE8 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		743464F32F3CEC37006DFFE8 /* AppNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigation.swift; sourceTree = "<group>"; };
+		743464F52F3CEC37006DFFE8 /* AchievementService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementService.swift; sourceTree = "<group>"; };
+		743464F62F3CEC37006DFFE8 /* AppLinksService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLinksService.swift; sourceTree = "<group>"; };
+		743464F72F3CEC37006DFFE8 /* EducationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationService.swift; sourceTree = "<group>"; };
+		743464F82F3CEC37006DFFE8 /* LevelDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelDataService.swift; sourceTree = "<group>"; };
+		743464F92F3CEC37006DFFE8 /* OnboardingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingService.swift; sourceTree = "<group>"; };
+		743464FA2F3CEC37006DFFE8 /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+		743464FB2F3CEC37006DFFE8 /* ProgressionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressionService.swift; sourceTree = "<group>"; };
+		743464FC2F3CEC37006DFFE8 /* UndoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UndoService.swift; sourceTree = "<group>"; };
+		743464FF2F3CEC37006DFFE8 /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
+		743465002F3CEC37006DFFE8 /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		743465012F3CEC37006DFFE8 /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
+		743465042F3CEC37006DFFE8 /* EducationInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationInteractor.swift; sourceTree = "<group>"; };
+		743465052F3CEC37006DFFE8 /* EducationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationPresenter.swift; sourceTree = "<group>"; };
+		743465062F3CEC37006DFFE8 /* EducationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationView.swift; sourceTree = "<group>"; };
+		743465082F3CEC37006DFFE8 /* GameInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameInteractor.swift; sourceTree = "<group>"; };
+		743465092F3CEC37006DFFE8 /* GamePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePresenter.swift; sourceTree = "<group>"; };
+		7434650A2F3CEC37006DFFE8 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		7434650C2F3CEC37006DFFE8 /* LevelSelectInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelSelectInteractor.swift; sourceTree = "<group>"; };
+		7434650D2F3CEC37006DFFE8 /* LevelSelectPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelSelectPresenter.swift; sourceTree = "<group>"; };
+		7434650E2F3CEC37006DFFE8 /* LevelSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelSelectView.swift; sourceTree = "<group>"; };
+		743465102F3CEC37006DFFE8 /* MenuInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuInteractor.swift; sourceTree = "<group>"; };
+		743465112F3CEC37006DFFE8 /* MenuPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPresenter.swift; sourceTree = "<group>"; };
+		743465122F3CEC37006DFFE8 /* MenuProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuProtocols.swift; sourceTree = "<group>"; };
+		743465132F3CEC37006DFFE8 /* MenuRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRouter.swift; sourceTree = "<group>"; };
+		743465142F3CEC37006DFFE8 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		743465162F3CEC37006DFFE8 /* ModeSelectPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeSelectPresenter.swift; sourceTree = "<group>"; };
+		743465172F3CEC37006DFFE8 /* ModeSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeSelectView.swift; sourceTree = "<group>"; };
+		743465192F3CEC37006DFFE8 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		7434651B2F3CEC37006DFFE8 /* ProgressionInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressionInteractor.swift; sourceTree = "<group>"; };
+		7434651C2F3CEC37006DFFE8 /* ProgressionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressionPresenter.swift; sourceTree = "<group>"; };
+		7434651D2F3CEC37006DFFE8 /* ProgressionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressionView.swift; sourceTree = "<group>"; };
+		7434651F2F3CEC37006DFFE8 /* SettingsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsInteractor.swift; sourceTree = "<group>"; };
+		743465202F3CEC37006DFFE8 /* SettingsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPresenter.swift; sourceTree = "<group>"; };
+		743465212F3CEC37006DFFE8 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		743465242F3CEC37006DFFE8 /* DesignHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignHelpers.swift; sourceTree = "<group>"; };
+		743465252F3CEC37006DFFE8 /* GameCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCanvasView.swift; sourceTree = "<group>"; };
+		743465292F3CEC37006DFFE8 /* NeuronShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuronShapes.swift; sourceTree = "<group>"; };
+		7434652B2F3CEC37006DFFE8 /* ConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionView.swift; sourceTree = "<group>"; };
+		7434652C2F3CEC37006DFFE8 /* NeuronView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuronView.swift; sourceTree = "<group>"; };
+		7434652E2F3CEC37006DFFE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7434652F2F3CEC37006DFFE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		743465302F3CEC37006DFFE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		743465312F3CEC37006DFFE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		743465322F3CEC37006DFFE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		743465342F3CEC37006DFFE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		743465362F3CEC37006DFFE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		743465372F3CEC37006DFFE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9CE46FE15DF0F37FCC936F4 /* Pods_82NeuralPathway.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_82NeuralPathway.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		7403ADB12F36AB8A002FAF54 /* Exceptions for "82NeuralPathway" folder in "82NeuralPathway" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 7403AD9E2F36AB89002FAF54 /* 82NeuralPathway */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		7403ADA12F36AB89002FAF54 /* 82NeuralPathway */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				7403ADB12F36AB8A002FAF54 /* Exceptions for "82NeuralPathway" folder in "82NeuralPathway" target */,
-			);
-			path = 82NeuralPathway;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7403AD9C2F36AB89002FAF54 /* Frameworks */ = {
@@ -45,8 +145,10 @@
 		7403AD962F36AB89002FAF54 = {
 			isa = PBXGroup;
 			children = (
-				7403ADA12F36AB89002FAF54 /* 82NeuralPathway */,
+				743465382F3CEC37006DFFE8 /* 82NeuralPathway */,
 				7403ADA02F36AB89002FAF54 /* Products */,
+				E06BB2E6E14766332F36B8D1 /* Pods */,
+				F5CEB87B1872CB92E5CCF48A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +160,264 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		743464E72F3CEC37006DFFE8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				743464E62F3CEC37006DFFE8 /* AppAssembler.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		743464F02F3CEC37006DFFE8 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				743464E82F3CEC37006DFFE8 /* Achievement.swift */,
+				743464E92F3CEC37006DFFE8 /* BrainFact.swift */,
+				743464EA2F3CEC37006DFFE8 /* Connection.swift */,
+				743464EB2F3CEC37006DFFE8 /* GameMode.swift */,
+				743464EC2F3CEC37006DFFE8 /* Level.swift */,
+				743464ED2F3CEC37006DFFE8 /* NeuralNetwork.swift */,
+				743464EE2F3CEC37006DFFE8 /* Neuron.swift */,
+				743464EF2F3CEC37006DFFE8 /* NeuronType.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		743464F22F3CEC37006DFFE8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				743464F12F3CEC37006DFFE8 /* Color+Hex.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		743464F42F3CEC37006DFFE8 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				743464F32F3CEC37006DFFE8 /* AppNavigation.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		743464FD2F3CEC37006DFFE8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				743464F52F3CEC37006DFFE8 /* AchievementService.swift */,
+				743464F62F3CEC37006DFFE8 /* AppLinksService.swift */,
+				743464F72F3CEC37006DFFE8 /* EducationService.swift */,
+				743464F82F3CEC37006DFFE8 /* LevelDataService.swift */,
+				743464F92F3CEC37006DFFE8 /* OnboardingService.swift */,
+				743464FA2F3CEC37006DFFE8 /* PersistenceService.swift */,
+				743464FB2F3CEC37006DFFE8 /* ProgressionService.swift */,
+				743464FC2F3CEC37006DFFE8 /* UndoService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		743464FE2F3CEC37006DFFE8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				743464F02F3CEC37006DFFE8 /* Entities */,
+				743464F22F3CEC37006DFFE8 /* Extensions */,
+				743464F42F3CEC37006DFFE8 /* Router */,
+				743464FD2F3CEC37006DFFE8 /* Services */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		743465022F3CEC37006DFFE8 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				743464FF2F3CEC37006DFFE8 /* CheckLink.swift */,
+				743465002F3CEC37006DFFE8 /* InternetViewController.swift */,
+				743465012F3CEC37006DFFE8 /* LoaderViewController.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		743465032F3CEC37006DFFE8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		743465072F3CEC37006DFFE8 /* Education */ = {
+			isa = PBXGroup;
+			children = (
+				743465042F3CEC37006DFFE8 /* EducationInteractor.swift */,
+				743465052F3CEC37006DFFE8 /* EducationPresenter.swift */,
+				743465062F3CEC37006DFFE8 /* EducationView.swift */,
+			);
+			path = Education;
+			sourceTree = "<group>";
+		};
+		7434650B2F3CEC37006DFFE8 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				743465082F3CEC37006DFFE8 /* GameInteractor.swift */,
+				743465092F3CEC37006DFFE8 /* GamePresenter.swift */,
+				7434650A2F3CEC37006DFFE8 /* GameView.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		7434650F2F3CEC37006DFFE8 /* LevelSelect */ = {
+			isa = PBXGroup;
+			children = (
+				7434650C2F3CEC37006DFFE8 /* LevelSelectInteractor.swift */,
+				7434650D2F3CEC37006DFFE8 /* LevelSelectPresenter.swift */,
+				7434650E2F3CEC37006DFFE8 /* LevelSelectView.swift */,
+			);
+			path = LevelSelect;
+			sourceTree = "<group>";
+		};
+		743465152F3CEC37006DFFE8 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				743465102F3CEC37006DFFE8 /* MenuInteractor.swift */,
+				743465112F3CEC37006DFFE8 /* MenuPresenter.swift */,
+				743465122F3CEC37006DFFE8 /* MenuProtocols.swift */,
+				743465132F3CEC37006DFFE8 /* MenuRouter.swift */,
+				743465142F3CEC37006DFFE8 /* MenuView.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		743465182F3CEC37006DFFE8 /* ModeSelect */ = {
+			isa = PBXGroup;
+			children = (
+				743465162F3CEC37006DFFE8 /* ModeSelectPresenter.swift */,
+				743465172F3CEC37006DFFE8 /* ModeSelectView.swift */,
+			);
+			path = ModeSelect;
+			sourceTree = "<group>";
+		};
+		7434651A2F3CEC37006DFFE8 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				743465192F3CEC37006DFFE8 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		7434651E2F3CEC37006DFFE8 /* Progression */ = {
+			isa = PBXGroup;
+			children = (
+				7434651B2F3CEC37006DFFE8 /* ProgressionInteractor.swift */,
+				7434651C2F3CEC37006DFFE8 /* ProgressionPresenter.swift */,
+				7434651D2F3CEC37006DFFE8 /* ProgressionView.swift */,
+			);
+			path = Progression;
+			sourceTree = "<group>";
+		};
+		743465222F3CEC37006DFFE8 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				7434651F2F3CEC37006DFFE8 /* SettingsInteractor.swift */,
+				743465202F3CEC37006DFFE8 /* SettingsPresenter.swift */,
+				743465212F3CEC37006DFFE8 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		743465232F3CEC37006DFFE8 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				743465072F3CEC37006DFFE8 /* Education */,
+				7434650B2F3CEC37006DFFE8 /* Game */,
+				7434650F2F3CEC37006DFFE8 /* LevelSelect */,
+				743465152F3CEC37006DFFE8 /* Menu */,
+				743465182F3CEC37006DFFE8 /* ModeSelect */,
+				7434651A2F3CEC37006DFFE8 /* Onboarding */,
+				7434651E2F3CEC37006DFFE8 /* Progression */,
+				743465222F3CEC37006DFFE8 /* Settings */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		743465262F3CEC37006DFFE8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				743465242F3CEC37006DFFE8 /* DesignHelpers.swift */,
+				743465252F3CEC37006DFFE8 /* GameCanvasView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		743465272F3CEC37006DFFE8 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				743465262F3CEC37006DFFE8 /* UI */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		743465282F3CEC37006DFFE8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7434652A2F3CEC37006DFFE8 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				743465292F3CEC37006DFFE8 /* NeuronShapes.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		7434652D2F3CEC37006DFFE8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7434652A2F3CEC37006DFFE8 /* Shapes */,
+				7434652B2F3CEC37006DFFE8 /* ConnectionView.swift */,
+				7434652C2F3CEC37006DFFE8 /* NeuronView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		743465382F3CEC37006DFFE8 /* 82NeuralPathway */ = {
+			isa = PBXGroup;
+			children = (
+				743464E72F3CEC37006DFFE8 /* App */,
+				743464FE2F3CEC37006DFFE8 /* Core */,
+				743465022F3CEC37006DFFE8 /* LoadingView */,
+				743465032F3CEC37006DFFE8 /* Models */,
+				743465232F3CEC37006DFFE8 /* Modules */,
+				743465272F3CEC37006DFFE8 /* Shared */,
+				743465282F3CEC37006DFFE8 /* ViewModels */,
+				7434652D2F3CEC37006DFFE8 /* Views */,
+				7434652E2F3CEC37006DFFE8 /* AppDelegate.swift */,
+				7434652F2F3CEC37006DFFE8 /* Assets.xcassets */,
+				743465302F3CEC37006DFFE8 /* ContentView.swift */,
+				743465312F3CEC37006DFFE8 /* Info.plist */,
+				743465332F3CEC37006DFFE8 /* LaunchScreen.storyboard */,
+				743465352F3CEC37006DFFE8 /* Main.storyboard */,
+				743465362F3CEC37006DFFE8 /* SceneDelegate.swift */,
+				743465372F3CEC37006DFFE8 /* ViewController.swift */,
+			);
+			path = 82NeuralPathway;
+			sourceTree = "<group>";
+		};
+		E06BB2E6E14766332F36B8D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				005104EBA60081B0F214F7D3 /* Pods-82NeuralPathway.debug.xcconfig */,
+				3A68C052EC5554686F79793C /* Pods-82NeuralPathway.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F5CEB87B1872CB92E5CCF48A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9CE46FE15DF0F37FCC936F4 /* Pods_82NeuralPathway.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +425,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7403ADB22F36AB8A002FAF54 /* Build configuration list for PBXNativeTarget "82NeuralPathway" */;
 			buildPhases = (
+				7787B2EE3EA202DA0A492592 /* [CP] Check Pods Manifest.lock */,
 				7403AD9B2F36AB89002FAF54 /* Sources */,
 				7403AD9C2F36AB89002FAF54 /* Frameworks */,
 				7403AD9D2F36AB89002FAF54 /* Resources */,
@@ -73,12 +434,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				7403ADA12F36AB89002FAF54 /* 82NeuralPathway */,
-			);
 			name = 82NeuralPathway;
-			packageProductDependencies = (
-			);
 			productName = 82NeuralPathway;
 			productReference = 7403AD9F2F36AB89002FAF54 /* 82NeuralPathway.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +455,7 @@
 				};
 			};
 			buildConfigurationList = 7403AD9A2F36AB89002FAF54 /* Build configuration list for PBXProject "82NeuralPathway" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +463,6 @@
 				Base,
 			);
 			mainGroup = 7403AD962F36AB89002FAF54;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 7403ADA02F36AB89002FAF54 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +477,126 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7434656F2F3CEC37006DFFE8 /* Assets.xcassets in Resources */,
+				743465712F3CEC37006DFFE8 /* LaunchScreen.storyboard in Resources */,
+				743465722F3CEC37006DFFE8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7787B2EE3EA202DA0A492592 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-82NeuralPathway-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7403AD9B2F36AB89002FAF54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				743465392F3CEC37006DFFE8 /* AppAssembler.swift in Sources */,
+				7434653A2F3CEC37006DFFE8 /* Achievement.swift in Sources */,
+				7434653B2F3CEC37006DFFE8 /* BrainFact.swift in Sources */,
+				7434653C2F3CEC37006DFFE8 /* Connection.swift in Sources */,
+				7434653D2F3CEC37006DFFE8 /* GameMode.swift in Sources */,
+				7434653E2F3CEC37006DFFE8 /* Level.swift in Sources */,
+				7434653F2F3CEC37006DFFE8 /* NeuralNetwork.swift in Sources */,
+				743465402F3CEC37006DFFE8 /* Neuron.swift in Sources */,
+				743465412F3CEC37006DFFE8 /* NeuronType.swift in Sources */,
+				743465422F3CEC37006DFFE8 /* Color+Hex.swift in Sources */,
+				743465432F3CEC37006DFFE8 /* AppNavigation.swift in Sources */,
+				743465442F3CEC37006DFFE8 /* AchievementService.swift in Sources */,
+				743465452F3CEC37006DFFE8 /* AppLinksService.swift in Sources */,
+				743465462F3CEC37006DFFE8 /* EducationService.swift in Sources */,
+				743465472F3CEC37006DFFE8 /* LevelDataService.swift in Sources */,
+				743465482F3CEC37006DFFE8 /* OnboardingService.swift in Sources */,
+				743465492F3CEC37006DFFE8 /* PersistenceService.swift in Sources */,
+				7434654A2F3CEC37006DFFE8 /* ProgressionService.swift in Sources */,
+				7434654B2F3CEC37006DFFE8 /* UndoService.swift in Sources */,
+				7434654C2F3CEC37006DFFE8 /* CheckLink.swift in Sources */,
+				7434654D2F3CEC37006DFFE8 /* InternetViewController.swift in Sources */,
+				7434654E2F3CEC37006DFFE8 /* LoaderViewController.swift in Sources */,
+				7434654F2F3CEC37006DFFE8 /* EducationInteractor.swift in Sources */,
+				743465502F3CEC37006DFFE8 /* EducationPresenter.swift in Sources */,
+				743465512F3CEC37006DFFE8 /* EducationView.swift in Sources */,
+				743465522F3CEC37006DFFE8 /* GameInteractor.swift in Sources */,
+				743465532F3CEC37006DFFE8 /* GamePresenter.swift in Sources */,
+				743465542F3CEC37006DFFE8 /* GameView.swift in Sources */,
+				743465552F3CEC37006DFFE8 /* LevelSelectInteractor.swift in Sources */,
+				743465562F3CEC37006DFFE8 /* LevelSelectPresenter.swift in Sources */,
+				743465572F3CEC37006DFFE8 /* LevelSelectView.swift in Sources */,
+				743465582F3CEC37006DFFE8 /* MenuInteractor.swift in Sources */,
+				743465592F3CEC37006DFFE8 /* MenuPresenter.swift in Sources */,
+				7434655A2F3CEC37006DFFE8 /* MenuProtocols.swift in Sources */,
+				7434655B2F3CEC37006DFFE8 /* MenuRouter.swift in Sources */,
+				7434655C2F3CEC37006DFFE8 /* MenuView.swift in Sources */,
+				7434655D2F3CEC37006DFFE8 /* ModeSelectPresenter.swift in Sources */,
+				7434655E2F3CEC37006DFFE8 /* ModeSelectView.swift in Sources */,
+				7434655F2F3CEC37006DFFE8 /* OnboardingView.swift in Sources */,
+				743465602F3CEC37006DFFE8 /* ProgressionInteractor.swift in Sources */,
+				743465612F3CEC37006DFFE8 /* ProgressionPresenter.swift in Sources */,
+				743465622F3CEC37006DFFE8 /* ProgressionView.swift in Sources */,
+				743465632F3CEC37006DFFE8 /* SettingsInteractor.swift in Sources */,
+				743465642F3CEC37006DFFE8 /* SettingsPresenter.swift in Sources */,
+				743465652F3CEC37006DFFE8 /* SettingsView.swift in Sources */,
+				743465662F3CEC37006DFFE8 /* DesignHelpers.swift in Sources */,
+				743465672F3CEC37006DFFE8 /* GameCanvasView.swift in Sources */,
+				743465682F3CEC37006DFFE8 /* NeuronShapes.swift in Sources */,
+				743465692F3CEC37006DFFE8 /* ConnectionView.swift in Sources */,
+				7434656A2F3CEC37006DFFE8 /* NeuronView.swift in Sources */,
+				7434656B2F3CEC37006DFFE8 /* AppDelegate.swift in Sources */,
+				7434656C2F3CEC37006DFFE8 /* ContentView.swift in Sources */,
+				7434656D2F3CEC37006DFFE8 /* SceneDelegate.swift in Sources */,
+				7434656E2F3CEC37006DFFE8 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		743465332F3CEC37006DFFE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				743465322F3CEC37006DFFE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		743465352F3CEC37006DFFE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				743465342F3CEC37006DFFE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		7403ADB32F36AB8A002FAF54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 005104EBA60081B0F214F7D3 /* Pods-82NeuralPathway.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +604,37 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 82NeuralPathway/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "S: Neural Pathway";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-2NeuralPathway";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ogn.sn48r2lp3th;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7403ADB42F36AB8A002FAF54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A68C052EC5554686F79793C /* Pods-82NeuralPathway.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,25 +642,31 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 82NeuralPathway/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "S: Neural Pathway";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-2NeuralPathway";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ogn.sn48r2lp3th;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

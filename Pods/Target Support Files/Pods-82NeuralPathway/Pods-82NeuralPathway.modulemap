@@ -1,0 +1,6 @@
+framework module Pods_82NeuralPathway {
+  umbrella header "Pods-82NeuralPathway-umbrella.h"
+
+  export *
+  module * { export * }
+}
