@@ -26,9 +26,6 @@
 		743465492F3CEC37006DFFE8 /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743464FA2F3CEC37006DFFE8 /* PersistenceService.swift */; };
 		7434654A2F3CEC37006DFFE8 /* ProgressionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743464FB2F3CEC37006DFFE8 /* ProgressionService.swift */; };
 		7434654B2F3CEC37006DFFE8 /* UndoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743464FC2F3CEC37006DFFE8 /* UndoService.swift */; };
-		7434654C2F3CEC37006DFFE8 /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743464FF2F3CEC37006DFFE8 /* CheckLink.swift */; };
-		7434654D2F3CEC37006DFFE8 /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743465002F3CEC37006DFFE8 /* InternetViewController.swift */; };
-		7434654E2F3CEC37006DFFE8 /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743465012F3CEC37006DFFE8 /* LoaderViewController.swift */; };
 		7434654F2F3CEC37006DFFE8 /* EducationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743465042F3CEC37006DFFE8 /* EducationInteractor.swift */; };
 		743465502F3CEC37006DFFE8 /* EducationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743465052F3CEC37006DFFE8 /* EducationPresenter.swift */; };
 		743465512F3CEC37006DFFE8 /* EducationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743465062F3CEC37006DFFE8 /* EducationView.swift */; };
@@ -89,9 +86,6 @@
 		743464FA2F3CEC37006DFFE8 /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
 		743464FB2F3CEC37006DFFE8 /* ProgressionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressionService.swift; sourceTree = "<group>"; };
 		743464FC2F3CEC37006DFFE8 /* UndoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UndoService.swift; sourceTree = "<group>"; };
-		743464FF2F3CEC37006DFFE8 /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
-		743465002F3CEC37006DFFE8 /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
-		743465012F3CEC37006DFFE8 /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
 		743465042F3CEC37006DFFE8 /* EducationInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationInteractor.swift; sourceTree = "<group>"; };
 		743465052F3CEC37006DFFE8 /* EducationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationPresenter.swift; sourceTree = "<group>"; };
 		743465062F3CEC37006DFFE8 /* EducationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationView.swift; sourceTree = "<group>"; };
@@ -223,16 +217,6 @@
 				743464FD2F3CEC37006DFFE8 /* Services */,
 			);
 			path = Core;
-			sourceTree = "<group>";
-		};
-		743465022F3CEC37006DFFE8 /* LoadingView */ = {
-			isa = PBXGroup;
-			children = (
-				743464FF2F3CEC37006DFFE8 /* CheckLink.swift */,
-				743465002F3CEC37006DFFE8 /* InternetViewController.swift */,
-				743465012F3CEC37006DFFE8 /* LoaderViewController.swift */,
-			);
-			path = LoadingView;
 			sourceTree = "<group>";
 		};
 		743465032F3CEC37006DFFE8 /* Models */ = {
@@ -383,7 +367,6 @@
 			children = (
 				743464E72F3CEC37006DFFE8 /* App */,
 				743464FE2F3CEC37006DFFE8 /* Core */,
-				743465022F3CEC37006DFFE8 /* LoadingView */,
 				743465032F3CEC37006DFFE8 /* Models */,
 				743465232F3CEC37006DFFE8 /* Modules */,
 				743465272F3CEC37006DFFE8 /* Shared */,
@@ -534,9 +517,6 @@
 				743465492F3CEC37006DFFE8 /* PersistenceService.swift in Sources */,
 				7434654A2F3CEC37006DFFE8 /* ProgressionService.swift in Sources */,
 				7434654B2F3CEC37006DFFE8 /* UndoService.swift in Sources */,
-				7434654C2F3CEC37006DFFE8 /* CheckLink.swift in Sources */,
-				7434654D2F3CEC37006DFFE8 /* InternetViewController.swift in Sources */,
-				7434654E2F3CEC37006DFFE8 /* LoaderViewController.swift in Sources */,
 				7434654F2F3CEC37006DFFE8 /* EducationInteractor.swift in Sources */,
 				743465502F3CEC37006DFFE8 /* EducationPresenter.swift in Sources */,
 				743465512F3CEC37006DFFE8 /* EducationView.swift in Sources */,
@@ -601,10 +581,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 82NeuralPathway/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "S: Neural Pathway";
+				INFOPLIST_KEY_CFBundleDisplayName = "Steelshiv Neural Pathway";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -639,10 +619,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 82NeuralPathway/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "S: Neural Pathway";
+				INFOPLIST_KEY_CFBundleDisplayName = "Steelshiv Neural Pathway";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
