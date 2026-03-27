@@ -61,6 +61,11 @@
 		7434656F2F3CEC37006DFFE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7434652F2F3CEC37006DFFE8 /* Assets.xcassets */; };
 		743465712F3CEC37006DFFE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 743465332F3CEC37006DFFE8 /* LaunchScreen.storyboard */; };
 		743465722F3CEC37006DFFE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 743465352F3CEC37006DFFE8 /* Main.storyboard */; };
+		746E08622F76571900E679AA /* StartMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746E08602F76571900E679AA /* StartMainView.swift */; };
+		746E08632F76571900E679AA /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746E085D2F76571900E679AA /* PersistenceManager.swift */; };
+		746E08642F76571900E679AA /* SaveService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746E085F2F76571900E679AA /* SaveService.swift */; };
+		746E08652F76571900E679AA /* PrivacyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746E085E2F76571900E679AA /* PrivacyWebView.swift */; };
+		746E08662F76571900E679AA /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746E085C2F76571900E679AA /* AppRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -122,6 +127,11 @@
 		743465342F3CEC37006DFFE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		743465362F3CEC37006DFFE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		743465372F3CEC37006DFFE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		746E085C2F76571900E679AA /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		746E085D2F76571900E679AA /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		746E085E2F76571900E679AA /* PrivacyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyWebView.swift; sourceTree = "<group>"; };
+		746E085F2F76571900E679AA /* SaveService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveService.swift; sourceTree = "<group>"; };
+		746E08602F76571900E679AA /* StartMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartMainView.swift; sourceTree = "<group>"; };
 		D9CE46FE15DF0F37FCC936F4 /* Pods_82NeuralPathway.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_82NeuralPathway.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -358,6 +368,7 @@
 				7434652A2F3CEC37006DFFE8 /* Shapes */,
 				7434652B2F3CEC37006DFFE8 /* ConnectionView.swift */,
 				7434652C2F3CEC37006DFFE8 /* NeuronView.swift */,
+				746E08612F76571900E679AA /* Router */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -382,6 +393,18 @@
 				743465372F3CEC37006DFFE8 /* ViewController.swift */,
 			);
 			path = 82NeuralPathway;
+			sourceTree = "<group>";
+		};
+		746E08612F76571900E679AA /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				746E085C2F76571900E679AA /* AppRouter.swift */,
+				746E085D2F76571900E679AA /* PersistenceManager.swift */,
+				746E085E2F76571900E679AA /* PrivacyWebView.swift */,
+				746E085F2F76571900E679AA /* SaveService.swift */,
+				746E08602F76571900E679AA /* StartMainView.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 		E06BB2E6E14766332F36B8D1 /* Pods */ = {
@@ -535,6 +558,11 @@
 				7434655E2F3CEC37006DFFE8 /* ModeSelectView.swift in Sources */,
 				7434655F2F3CEC37006DFFE8 /* OnboardingView.swift in Sources */,
 				743465602F3CEC37006DFFE8 /* ProgressionInteractor.swift in Sources */,
+				746E08622F76571900E679AA /* StartMainView.swift in Sources */,
+				746E08632F76571900E679AA /* PersistenceManager.swift in Sources */,
+				746E08642F76571900E679AA /* SaveService.swift in Sources */,
+				746E08652F76571900E679AA /* PrivacyWebView.swift in Sources */,
+				746E08662F76571900E679AA /* AppRouter.swift in Sources */,
 				743465612F3CEC37006DFFE8 /* ProgressionPresenter.swift in Sources */,
 				743465622F3CEC37006DFFE8 /* ProgressionView.swift in Sources */,
 				743465632F3CEC37006DFFE8 /* SettingsInteractor.swift in Sources */,
